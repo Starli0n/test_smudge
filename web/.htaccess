@@ -1,6 +1,6 @@
 AuthName "Please, log in"
 AuthType Basic
-AuthUserFile /var/www/html/.htpasswd
+AuthUserFile {htpasswd_path}
 Require valid-user
 
 <filesMatch "\.(html|htm|js|css|png)$">
